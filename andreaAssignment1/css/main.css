@@ -1,0 +1,32 @@
+body, html {
+    
+    margin: 0; 
+    height: 100%;
+    font-family: helvetica; 
+    
+    
+    
+}
+
+
+.col-md-3{
+    margin: auto !important;
+}
+
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.btn-warning{
+  border:1px solid black !important;  
+}
+
+
+/*----comment this part out and have a look at the ipad's look----*/
+@media (min-width: 768px){
+.col-md-3 {
+   
+     max-width: 100% !important;
+}
+}
